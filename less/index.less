@@ -50,6 +50,7 @@ table {
 	box-sizing: border-box;
 	border: medium black;
 	font-family: 'Baloo Chettan 2', cursive;
+	border-radius: 21px;
 }
 
 html, body {
@@ -58,18 +59,19 @@ html, body {
 /*  BEGIN HERE  */
 header{
 	background-color: rgb(224, 220, 220);
-	justify-content: flex-end;
+	// justify-content: flex-end;
 	display: flex;
 }
 nav{
+	// width: auto;
 	display: flex;
-	// justify-content: space-evenly;
+	flex-direction: column;
 	padding: 20px 10px;
 }
 nav a{
-	display: flex;
-	width: 100%;
-	justify-content: space-around;
+	width: 20%;
+	// display: flex;
+	// justify-content: space-around;
 }
 h1{
 	font-size: 3rem;
@@ -86,7 +88,7 @@ a{
 
 .headerbox{
 
-	width: 90%;
+	width: 40%;
 	background-color: rgb(146, 165, 190);
 	border: 1rem inset rgb(166, 118, 211);
 	padding: 2%;

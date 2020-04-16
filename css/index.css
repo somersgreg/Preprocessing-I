@@ -129,6 +129,7 @@ table {
   box-sizing: border-box;
   border: medium black;
   font-family: 'Baloo Chettan 2', cursive;
+  border-radius: 21px;
 }
 html,
 body {
@@ -137,17 +138,15 @@ body {
 /*  BEGIN HERE  */
 header {
   background-color: #e0dcdc;
-  justify-content: flex-end;
   display: flex;
 }
 nav {
   display: flex;
+  flex-direction: column;
   padding: 20px 10px;
 }
 nav a {
-  display: flex;
-  width: 100%;
-  justify-content: space-around;
+  width: 20%;
 }
 h1 {
   font-size: 3rem;
@@ -162,7 +161,7 @@ a {
   font-family: "Baloo Chettan 2";
 }
 .headerbox {
-  width: 90%;
+  width: 40%;
   background-color: #92a5be;
   border: 1rem inset #a676d3;
   padding: 2%;
