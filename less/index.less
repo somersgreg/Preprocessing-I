@@ -3,7 +3,6 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -47,13 +46,66 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 /* Set every element's box-sizing to border-box */
 * {
     box-sizing: border-box;
 }
-
 html, body {
     height: 100%;
 }
+// Starting some shenanigans here
+/* Set every element's box-sizing to border-box */
+* {
+	box-sizing: border-box;
+	border: medium black;
+	font-family: 'Baloo Chettan 2', cursive;
+	border-radius: 21px;
+}
 
+html, body {
+	height: 100%;
+}
+/*  BEGIN HERE  */
+header{
+	background-color: rgb(224, 220, 220);
+	// justify-content: flex-end;
+	display: flex;
+}
+nav{
+	// width: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 10px;
+}
+nav a{
+	width: 20%;
+	// display: flex;
+	// justify-content: space-around;
+}
+h1{
+	font-size: 3rem;
+	font-family: "Baloo Chettan 2";
+}
+h2{
+	font-size: 2rem;
+	font-family: "Baloo Chettan 2";
+}
+a{
+	font-size: 50px;
+	font-family: "Baloo Chettan 2";
+}
+
+.headerbox{
+
+	width: 40%;
+	background-color: rgb(146, 165, 190);
+	border: 1rem inset rgb(166, 118, 211);
+	padding: 2%;
+
+}
+.headerimg{
+	border: 1rem inset rgb(166, 118, 211);
+}
+section{
+	padding: 20px;
+}
